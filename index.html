@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>万象 WanXiang - 全平台影视 & 音乐应用</title>
+    <meta name="description" content="万象 WanXiang — 全平台、轻量、高性能影视播放器与音乐播放器，一个应用，双重体验">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { DEFAULT: '#6C63FF', light: '#8B85FF', dark: '#5046E5' },
+                        surface: { DEFAULT: '#111111', light: '#1A1A1F', lighter: '#222228' },
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+        .glass { background: rgba(255,255,255,0.03); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.06); }
+        .gradient-text { background: linear-gradient(135deg, #6C63FF 0%, #a78bfa 50%, #c084fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero-bg { background: radial-gradient(ellipse 80% 60% at 50% -20%, rgba(108,99,255,0.15), transparent), radial-gradient(ellipse 60% 50% at 80% 60%, rgba(168,139,250,0.08), transparent); }
+        .card-hover { transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1); }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 60px rgba(108,99,255,0.12); border-color: rgba(108,99,255,0.25); }
+        .screenshot-track { display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+        .screenshot-track::-webkit-scrollbar { display: none; }
+        .screenshot-track img { scroll-snap-align: start; border-radius: 12px; flex-shrink: 0; }
+        .btn-primary { background: linear-gradient(135deg, #6C63FF, #8B85FF); transition: all 0.2s; }
+        .btn-primary:hover { transform: scale(1.03); box-shadow: 0 8px 30px rgba(108,99,255,0.3); }
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-in { animation: fadeUp 0.6s ease-out; }
+        /* ── 使用文档折叠样式 ── */
+        .doc-toggle { cursor: pointer; user-select: none; }
+        .doc-toggle svg { transition: transform 0.3s; }
+        .doc-toggle.open svg { transform: rotate(180deg); }
+        .doc-body { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+        .doc-body.open { max-height: 8000px; }
+        .doc-card { background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 14px; padding: 1.5rem; margin-bottom: 1rem; }
+        .doc-card h4 { color: rgba(255,255,255,0.8); font-size: 0.95rem; font-weight: 600; margin-bottom: 0.5rem; }
+        .doc-card p, .doc-card li { color: rgba(255,255,255,0.45); font-size: 0.875rem; line-height: 1.7; }
+        .doc-card ul { padding-left: 1.25rem; margin-top: 0.3rem; }
+        .doc-card li { margin-bottom: 0.2rem; }
+        .doc-card code { background: rgba(255,255,255,0.06); padding: 1px 6px; border-radius: 4px; font-size: 0.8rem; }
+    </style>
+</head>
+<body class="bg-surface text-white antialiased">
+
+<!-- ═══ HERO ═══ -->
+<header class="hero-bg relative overflow-hidden">
+    <div class="absolute inset-0 opacity-30">
+        <div class="absolute top-20 left-10 w-72 h-72 bg-brand/15 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-10 right-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+    </div>
+    <div class="relative max-w-5xl mx-auto px-6 pt-20 pb-16 text-center">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-sm text-white/60 mb-6 animate-in">
+            <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span> 持续更新中
+        </div>
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-4 animate-in">
+            <span class="gradient-text">万象</span>
+            <span class="text-white"> WanXiang</span>
+        </h1>
+        <p class="text-lg md:text-xl text-white/50 max-w-2xl mx-auto leading-relaxed animate-in">
+            全平台 · 轻量 · 高性能<br>
+            影视播放器 + 音乐播放器，一个应用，双重体验
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 mt-8 animate-in">
+            <a href="#app" class="btn-primary px-8 py-3 rounded-xl text-white font-semibold text-sm">🎬 了解万象</a>
+            <a href="#community" class="px-8 py-3 rounded-xl glass text-white font-semibold text-sm hover:border-white/20 transition">💬 加入社区</a>
+        </div>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+</header>
+
+<!-- ══════════════════ 万象应用（影视+音乐） ══════════════════ -->
+<section id="app" class="max-w-6xl mx-auto px-6 py-24">
+    <div class="flex flex-col lg:flex-row gap-12 items-center">
+        <div class="flex-1">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand/10 border border-brand/20 text-brand-light text-xs font-medium mb-4">Flutter · MPV · 全平台 · 影视 + 音乐</div>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">🎬 <span class="gradient-text">万象 WanXiang</span></h2>
+            <p class="text-white/50 leading-relaxed mb-6">
+                基于 Flutter + media_kit + libmpv，支持 H.265/HEVC 硬解、4K HDR 播放。
+                自由添加 Apple CMS / TVBOX 影视源，支持电视直播 M3U/TXT 源 + EPG 节目指南。
+                内置音乐模块，接入落雪音乐音源，支持搜索、播放、歌词、歌单等完整音乐体验。
+                多源并行搜索、青少年模式、全平台数据互通。
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-3 py-1 text-xs rounded-full bg-surface-lighter text-white/60">Windows</span>
+                <span class="px-3 py-1 text-xs rounded-full bg-surface-lighter text-white/60">Android</span>
+                <span class="px-3 py-1 text-xs rounded-full bg-surface-lighter text-white/60">macOS</span>
+                <span class="px-3 py-1 text-xs rounded-full bg-surface-lighter text-white/60">iOS</span>
+                <span class="px-3 py-1 text-xs rounded-full bg-surface-lighter text-white/60">Linux</span>
+            </div>
+            <div class="flex flex-wrap gap-3">
+                <a href="https://github.com/AudiHub/WanXiang-Release/releases/latest" target="_blank" class="btn-primary px-6 py-2.5 rounded-lg text-white font-semibold text-sm inline-flex items-center gap-2">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>下载最新版</a>
+                <a href="https://github.com/AudiHub/WanXiang-Release" target="_blank" class="px-6 py-2.5 rounded-lg glass text-white font-semibold text-sm inline-flex items-center gap-2 hover:border-white/20 transition">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>GitHub</a>
+            </div>
+        </div>
+        <div class="flex-1">
+            <div class="relative">
+                <div class="absolute -inset-1 bg-gradient-to-r from-brand/30 to-purple-400/20 rounded-2xl blur-xl"></div>
+                <img src="images/cinema-hero.png" alt="万象主页" class="relative rounded-2xl w-full shadow-2xl">
+            </div>
+        </div>
+    </div>
+    <!-- Screenshots -->
+    <div class="mt-16">
+        <h3 class="text-lg font-semibold text-white/70 mb-4">📸 界面预览</h3>
+        <div class="screenshot-track pb-2">
+            <img src="images/cinema-hero.png" alt="主页" class="h-64 md:h-80 rounded-xl">
+            <img src="images/cinema-player.png" alt="影视播放" class="h-64 md:h-80 rounded-xl">
+            <img src="images/cinema-tv.png" alt="电视直播" class="h-64 md:h-80 rounded-xl">
+            <img src="images/music-bofangqi.png" alt="音乐播放器" class="h-64 md:h-80 rounded-xl">
+            <img src="images/music-paihangbang.png" alt="音乐排行榜" class="h-64 md:h-80 rounded-xl">
+            <img src="images/music-bangdan.png" alt="音乐歌单" class="h-64 md:h-80 rounded-xl">
+        </div>
+    </div>
+    <!-- 📖 使用文档 -->
+    <div class="mt-12">
+        <div class="doc-toggle flex items-center gap-2 text-white/60 hover:text-white/80 transition cursor-pointer select-none" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+            <h3 class="text-lg font-semibold">📖 使用文档</h3>
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </div>
+        <div class="doc-body mt-6">
+            <div class="doc-card">
+                <h4>🔗 添加影视源</h4>
+                <p>打开设置 → 源管理 → 点击右上角 + 号。支持两种模式：</p><ul><li><strong>手动添加</strong>：输入源名称和 API 地址（Apple CMS / TVBOX 格式），保存后自动加载</li><li><strong>导入/导出</strong>：可将现有源列表导出为 JSON 文件，跨设备迁移或备份</li></ul>
+                <p class="mt-2">💡 <em>添加多个源可实现并行搜索，某一源失效时自动从其他源获取结果</em></p>
+            </div>
+            <div class="doc-card">
+                <h4>📺 电视直播</h4>
+                <p>添加电视源后在顶部切换到「电视」标签：</p><ul><li>支持 <code>M3U</code> / <code>TXT</code> 格式直播源，频道自动分组管理</li><li>EPG 节目指南：点击节目单按钮查看当前频道完整节目表</li><li>频道切换：左右滑动或使用上一频道/下一频道按钮</li><li>播放器底部支持频道列表、节目单、切换源等快捷操作</li></ul>
+            </div>
+            <div class="doc-card">
+                <h4>🎵 音乐模块</h4>
+                <p>顶部切换到「音乐」标签，首次使用需导入落雪音乐音源脚本：</p><ul><li><strong>导入音源</strong>：设置 → 音源插件 → 导入落雪音乐 <code>.js</code> 音源脚本</li><li><strong>搜索播放</strong>：支持单曲搜索、歌单搜索、排行榜浏览</li><li><strong>歌词</strong>：全屏歌词界面，支持逐字同步、翻译显示</li><li><strong>播放队列</strong>：顺序/随机/单曲循环，支持收藏管理</li><li><strong>多平台聚合</strong>：咪咕/酷狗/酷我/网易云/QQ音乐，一键切换搜索</li></ul>
+            </div>
+            <div class="doc-card">
+                <h4>🔍 搜索与筛选</h4>
+                <ul><li><strong>拼音搜索</strong>：支持全拼、首字母，输入拼音自动匹配中文片名</li><li><strong>多源并行</strong>：启用多个源时，搜索结果来自所有可用源，去重合并</li><li><strong>分类浏览</strong>：首页按类型分类滚动，支持悬停/点击进入分类列表</li></ul>
+            </div>
+            <div class="doc-card">
+                <h4>🎮 播放控制</h4>
+                <ul><li><strong>手势控制</strong>：点击显示/隐藏控制栏；桌面端双击进入全屏</li><li><strong>倍速播放</strong>：底部倍速按钮支持 0.5x ~ 2.0x</li><li><strong>音量调节</strong>：桌面端水平滑块直接调节；手机端点击音量图标弹出竖向滑块</li><li><strong>选集切换</strong>：手机端底部「选集」按钮打开右侧集数面板；桌面端详情面板直接显示</li><li><strong>进度恢复</strong>：观看记录自动保存，再次打开从上次位置继续播放</li></ul>
+            </div>
+            <div class="doc-card">
+                <h4>🎨 主题与外观</h4>
+                <ul><li><strong>明暗主题</strong>：自动跟随系统，也可手动切换。播放器界面采用毛玻璃半透明风格</li><li><strong>青少年模式</strong>：设置 → 青少年模式 → 设置密码 → 可选择隐藏特定影视源，为儿童提供安全观影环境</li></ul>
+            </div>
+            <div class="doc-card">
+                <h4>🔄 更新升级</h4>
+                <p>应用启动后自动检测 GitHub Releases 最新版本，检测到新版本后弹出下载提示。也可在设置中手动检查更新。Windows 用户推荐使用安装器版本（自动创建桌面快捷方式 + 卸载入口）。</p>
+            </div>
+            <div class="doc-card">
+                <h4>⚙️ 其他设置</h4>
+                <ul><li><strong>数据管理</strong>：观看历史、收藏、源配置本地存储，可一键清除</li><li><strong>移动端</strong>：横竖屏自动适应布局；电视模式底部按钮囊括所有操作入口</li></ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="max-w-6xl mx-auto px-6"><div class="h-px bg-gradient-to-r from-transparent via-white/5 to-transparent"></div></div>
+
+<!-- ═══ 捐赠支持 ═══ -->
+<section id="donate" class="max-w-4xl mx-auto px-6 py-24 text-center">
+    <h2 class="text-3xl font-bold mb-3">❤️ 支持我们</h2>
+    <p class="text-white/40 mb-10 max-w-lg mx-auto">如果你觉得好用，欢迎捐赠支持。所有项目永久免费、无广告。</p>
+    <div class="flex flex-wrap justify-center gap-8">
+        <div class="glass rounded-2xl p-6 w-56 card-hover text-center">
+            <div class="text-2xl mb-2">💚</div>
+            <div class="text-sm font-semibold text-white/70 mb-3">微信赞赏</div>
+            <img src="images/wechat.png" alt="微信收款码" class="w-40 h-40 mx-auto rounded-xl">
+        </div>
+        <div class="glass rounded-2xl p-6 w-56 card-hover text-center">
+            <div class="text-2xl mb-2">💙</div>
+            <div class="text-sm font-semibold text-white/70 mb-3">支付宝</div>
+            <img src="images/alipay.png" alt="支付宝收款码" class="w-40 h-40 mx-auto rounded-xl">
+        </div>
+    </div>
+    <p class="text-white/20 text-xs mt-6">打赏金额随心，每一份支持都是我们前进的动力</p>
+</section>
+
+<!-- ═══ 社区交流 ═══ -->
+<section id="community" class="max-w-4xl mx-auto px-6 py-16 text-center">
+    <h2 class="text-3xl font-bold mb-3">💬 加入社区</h2>
+    <p class="text-white/40 mb-8 max-w-lg mx-auto">遇到问题？想要建议？欢迎加入 QQ 群与其他用户交流。</p>
+    <div class="flex flex-wrap justify-center gap-8">
+        <div class="glass rounded-2xl p-6 w-56 card-hover text-center">
+            <div class="text-2xl mb-2">🐧</div>
+            <div class="text-sm font-semibold text-white/70 mb-1">QQ 交流群</div>
+            <div class="text-xs text-white/40 mb-3">群号：1045544029</div>
+            <img src="images/qq.jpg" alt="QQ群二维码" class="w-40 h-40 mx-auto rounded-xl">
+        </div>
+    </div>
+</section>
+
+<!-- ═══ Footer ═══ -->
+<footer class="border-t border-white/5 py-10 text-center text-white/20 text-sm">
+    <div class="flex justify-center gap-6 mb-4">
+        <a href="https://github.com/AudiHub" target="_blank" class="hover:text-white/50 transition">GitHub</a>
+        <a href="#app" class="hover:text-white/50 transition">万象应用</a>
+        <a href="#donate" class="hover:text-white/50 transition">捐赠支持</a>
+        <a href="#community" class="hover:text-white/50 transition">加入社区</a>
+    </div>
+    <p class="max-w-2xl mx-auto leading-relaxed mb-4 text-white/10 text-xs">
+        免责声明：本网站提供的项目均为开源免费的本地播放工具，不提供、不存储、不传播任何影音内容。
+        所有内容的获取、展示和播放均来源于用户自行配置的第三方服务，与本项目无关。
+        用户需确保其使用的第三方服务内容符合当地法律法规。如有问题，请联系邮箱：21889225@qq.com
+    </p>
+    <p>© 2026 WanXiang · 万象系列 · MIT License</p>
+</footer>
+
+</body>
+</html>

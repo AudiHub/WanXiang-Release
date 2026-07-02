@@ -27,7 +27,7 @@
 |------|------|
 | 框架 | Flutter 3.x (Dart) |
 | 视频内核 | media_kit + libmpv (硬件解码) |
-| 音频 | 网易云 API + 多音源插件 |
+| 音频 |多音源插件 |
 | 数据存储 | sqflite (SQLite) + SharedPreferences |
 
 ---

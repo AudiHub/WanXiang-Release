@@ -49,7 +49,8 @@
 
 ## 📡 订阅源（自动同步）
 
-> 上游：[Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg) | 每日自动检测更新，已去除广告推广内容
+咪咕源 实时更新
+M3U: https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u
 
 | 名称 | 直链（已加 gh-proxy 加速） |
 |:---|:---|

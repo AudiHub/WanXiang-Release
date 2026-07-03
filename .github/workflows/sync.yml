@@ -129,8 +129,12 @@ jobs:
         run: |
           python3 scripts/scrape_and_build.py
 
-      - name: 复制订阅文件到根目录
+      - name: 复制订阅文件到 subscribe 目录
         run: |
+          mkdir -p subscribe
+          cp release/wanxiang.json subscribe/ 2>/dev/null || true
+          cp release/可用影视源列表.txt subscribe/ 2>/dev/null || true
+          cp release/IPTV直播源列表.txt subscribe/ 2>/dev/null || true
           cp subscribe/wanxiang.json wanxiang.json 2>/dev/null || true
       - name: 提交并推送
         run: |

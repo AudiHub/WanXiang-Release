@@ -1,6 +1,6 @@
 万象影视 - 可用 Apple CMS 影视源
-生成时间: 2026-07-03 19:16:58
-数量: 218
+生成时间: 2026-07-04 02:37:12
+数量: 220
 
 左岸,http://103.97.176.128:9528/api.php/provide/vod/
 🍳江湖官采(官),http://119.29.1.173/api.php/provide/vod/
@@ -24,6 +24,7 @@ AI1,http://124.222.116.5/macos/seven/api.php/provide/vod/
 电影天堂,http://caiji.dyttzyapi.com/api.php/provide/vod/at/xml/
 🍑诺讯资源(官),http://caiji.nxflv.com/api.php/provide/vod/
 🍟雨哥影视(聚),http://cj.baozi66.top:66/api.php/provide/vod/
+✅非凡┃影视,http://cj.ffzyapi.com//api.php/provide/vod
 非凡,http://cj.ffzyapi.com/api.php/provide/vod/
 🍭非凡┃采集,http://cj.ffzyapi.com/api.php/provide/vod/at/xml/
 非凡资源,http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/
@@ -54,6 +55,7 @@ AIvin,http://lbapiby.com/api.php/provide/vod/at/xml
 🍨百淘影视(聚),http://ys.58g8.com/api.php/provide/vod/
 最大|点播,http://zuidazy.me/api.php/provide/vod/
 金蝉｜聚合,http://zy.jinchancaiji.com/api.php/provide/vod
+✅360┃资源,https://360zy.com/api.php/provide/vod
 360资源,https://360zy.com/api.php/provide/vod/?ac=list
 🦚360┃采集,https://360zy.com/api.php/provide/vod?
 49资源网,https://49zyw.com/api.php/provide/vod/
@@ -109,7 +111,7 @@ C K 资源,https://api.xinlangapi.com/xinlangapi.php/provide/vod
 全站资源,https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/
 影视 | 量子[直连],https://cj.lziapi.com/api.php/provide/vod/
 量子资源,https://cj.lziapi.com/api.php/provide/vod/?ac=list
-🦚量子┃采集,https://cj.lziapi.com/api.php/provide/vod/at/xml/
+✅量子┃影视,https://cj.lziapi.com/api.php/provide/vod/at/xml/
 🔥如意┃采集,https://cj.rycjapi.com/api.php/provide/vod/
 如意资源,https://cj.rycjapi.com/api.php/provide/vod/?ac=list
 如意资源,https://cj.rycjapi.com/api.php/provide/vod/at/xml/
@@ -165,7 +167,7 @@ OK|点播,https://okzyw9.com/api.php/provide/vod/
 索尼,https://suoniapi.com/api.php/provide/vod/
 影视 | 率率[直连],https://suoniapi.com/api.php/provide/vod/?ac=list
 影视 | 索尼[直连],https://suoniapi.com/api.php/provide/vod/at/xml/
-索尼┃资源,https://suoniapi.com/api.php/provide/vod/from/snm3u8/
+✅索尼┃影视,https://suoniapi.com/api.php/provide/vod/from/snm3u8/
 🍀┃豆瓣精选,https://t4.secan.icu/vod?sites=all&ali_token=0c55c9f1c5cb4327ae2e51423276bb1e
 淘片资源采集网,https://taopianapi.com/cjapi/mc10/vod/json.html
 天涯资源,https://tyyszy.com/api.php/provide/vod/?ac=list
@@ -180,7 +182,7 @@ timizy,https://vipcj.timizy.top/api.php/provide/vod/
 飞速资源,https://www.feisuzy.com/api.php/provide/vod/
 飞速资源,https://www.feisuzyapi.com/api.php/provide/vod/
 成人03,https://www.gdlsp.com/api/xml.php
-红牛|点播,https://www.hongniuzy2.com/api.php/provide/vod/
+✅红牛┃资源,https://www.hongniuzy2.com/api.php/provide/vod/
 红牛资源,https://www.hongniuzy2.com/api.php/provide/vod/at/josn/
 虎牙,https://www.huyaapi.com/api.php/provide/vod
 虎牙|点播,https://www.huyaapi.com/api.php/provide/vod/

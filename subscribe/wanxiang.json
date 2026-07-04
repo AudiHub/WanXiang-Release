@@ -41,6 +41,11 @@
       "type": 10
     },
     {
+      "name": "live",
+      "url": "http://23.224.143.163:2202/vip/ku9.txt",
+      "type": 10
+    },
+    {
       "name": "平台直播",
       "url": "http://47.120.41.246:8025/vip/jar/zb.php",
       "type": 10
@@ -496,6 +501,10 @@
       "url": "http://cj.baozi66.top:66/api.php/provide/vod/"
     },
     {
+      "name": "✅非凡┃影视",
+      "url": "http://cj.ffzyapi.com//api.php/provide/vod"
+    },
+    {
       "name": "非凡",
       "url": "http://cj.ffzyapi.com/api.php/provide/vod/"
     },
@@ -614,6 +623,10 @@
     {
       "name": "金蝉｜聚合",
       "url": "http://zy.jinchancaiji.com/api.php/provide/vod"
+    },
+    {
+      "name": "✅360┃资源",
+      "url": "https://360zy.com/api.php/provide/vod"
     },
     {
       "name": "360资源",
@@ -836,7 +849,7 @@
       "url": "https://cj.lziapi.com/api.php/provide/vod/?ac=list"
     },
     {
-      "name": "🦚量子┃采集",
+      "name": "✅量子┃影视",
       "url": "https://cj.lziapi.com/api.php/provide/vod/at/xml/"
     },
     {
@@ -1060,7 +1073,7 @@
       "url": "https://suoniapi.com/api.php/provide/vod/at/xml/"
     },
     {
-      "name": "索尼┃资源",
+      "name": "✅索尼┃影视",
       "url": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/"
     },
     {
@@ -1120,7 +1133,7 @@
       "url": "https://www.gdlsp.com/api/xml.php"
     },
     {
-      "name": "红牛|点播",
+      "name": "✅红牛┃资源",
       "url": "https://www.hongniuzy2.com/api.php/provide/vod/"
     },
     {

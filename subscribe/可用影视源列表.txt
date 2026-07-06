@@ -1,6 +1,6 @@
 万象影视 - 可用 Apple CMS 影视源
-生成时间: 2026-07-06 10:13:49
-数量: 219
+生成时间: 2026-07-06 15:27:38
+数量: 217
 
 左岸,http://103.97.176.128:9528/api.php/provide/vod/
 🍳江湖官采(官),http://119.29.1.173/api.php/provide/vod/
@@ -11,7 +11,6 @@ AI1,http://124.222.116.5/macos/seven/api.php/provide/vod/
 🥭西柚影视(优),http://43.135.75.180:9999/api.php/provide/vod/
 🍌每天看看(优),http://47.113.126.237:1234/api.php/provide/vod/
 🌭MX 影院(聚),http://49.235.107.145:81/api.php/provide/vod/
-天翼｜影视,http://7.qqqtv.top/api.php/provide/vod/
 🥤阿里影视(聚),http://aliys.cn:90/api.php/provide/vod/
 忆梦资源,http://anltv.cn/api.php/provide/vod/
 1080zyku,http://api.1080zyku.com/inc/api_mac10.php
@@ -54,7 +53,6 @@ AIvin,http://lbapiby.com/api.php/provide/vod/at/xml
 🍚小鸟动漫(聚),http://xydm.baicai.buzz/api.php/provide/vod/
 🍨百淘影视(聚),http://ys.58g8.com/api.php/provide/vod/
 最大|点播,http://zuidazy.me/api.php/provide/vod/
-金蝉｜聚合,http://zy.jinchancaiji.com/api.php/provide/vod
 ✅360┃资源,https://360zy.com/api.php/provide/vod
 360资源,https://360zy.com/api.php/provide/vod/?ac=list
 🦚360┃采集,https://360zy.com/api.php/provide/vod?

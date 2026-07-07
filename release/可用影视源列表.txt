@@ -1,6 +1,6 @@
 万象影视 - 可用 Apple CMS 影视源
-生成时间: 2026-07-07 02:48:36
-数量: 219
+生成时间: 2026-07-07 09:37:03
+数量: 220
 
 左岸,http://103.97.176.128:9528/api.php/provide/vod/
 🍳江湖官采(官),http://119.29.1.173/api.php/provide/vod/
@@ -124,6 +124,7 @@ CK资源,https://ckzy.me/api.php/provide/vod/
 🔞大地av,https://dadiapi.com/apple_m3u8.php
 豆瓣资源,https://dbzy.tv/api.php/provide/vod/?ac=list
 蛋蛋魔法,https://ddmf.net/api.php/provide/vod
+我的TV,https://dy.7772888.xyz/api.php/tvbox
 海外看,https://haiwaikan.com/api.php/provide/vod
 豪华|点播,https://hhzyapi.com/api.php/provide/vod
 火狐|点播,https://hhzyapi.com/api.php/provide/vod/

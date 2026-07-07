@@ -901,6 +901,10 @@
       "url": "https://ddmf.net/api.php/provide/vod"
     },
     {
+      "name": "我的TV",
+      "url": "https://dy.7772888.xyz/api.php/tvbox"
+    },
+    {
       "name": "海外看",
       "url": "https://haiwaikan.com/api.php/provide/vod"
     },

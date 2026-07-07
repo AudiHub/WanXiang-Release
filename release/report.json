@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06 19:52:25",
+  "generated_at": "2026-07-07 02:48:36",
   "stats": {
     "cms_total": 219,
     "live_total": 82,
@@ -99,7 +99,7 @@
       "url": "http://cj.ffzyapi.com//api.php/provide/vod"
     },
     {
-      "name": "非凡",
+      "name": "非凡|点播",
       "url": "http://cj.ffzyapi.com/api.php/provide/vod/"
     },
     {
@@ -255,7 +255,7 @@
       "url": "https://api.1080zyku.com/inc/apijson.php"
     },
     {
-      "name": "百度云资源",
+      "name": "🐝百度资源",
       "url": "https://api.apibdzy.com/api.php/provide/vod/"
     },
     {
@@ -275,7 +275,7 @@
       "url": "https://api.apilyzy.com/api.php/provide/vod/at/xml/"
     },
     {
-      "name": "光速资源",
+      "name": "🐝光速资源",
       "url": "https://api.guangsuapi.com/api.php/provide/vod/"
     },
     {
@@ -291,7 +291,7 @@
       "url": "https://api.maoyanapi.top/api.php/provide/vod"
     },
     {
-      "name": "牛牛|点播",
+      "name": "牛牛资源",
       "url": "https://api.niuniuzy.me/api.php/provide/vod/"
     },
     {
@@ -303,7 +303,7 @@
       "url": "https://api.sexnguon.com/api.php/provide/vod/"
     },
     {
-      "name": "🐝天空资源",
+      "name": "天空资源",
       "url": "https://api.tiankongapi.com/api.php/provide/vod/"
     },
     {
@@ -339,7 +339,7 @@
       "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod"
     },
     {
-      "name": "新浪|点播",
+      "name": "新浪资源",
       "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/"
     },
     {
@@ -383,11 +383,11 @@
       "url": "https://app.bfzyapi.com/api.php/provide/vod/"
     },
     {
-      "name": "🦔暴風┃采集",
+      "name": "暴風",
       "url": "https://bfzyapi.com/api.php/provide/vod"
     },
     {
-      "name": "暴风|点播",
+      "name": "暴风采集",
       "url": "https://bfzyapi.com/api.php/provide/vod/"
     },
     {
@@ -399,7 +399,7 @@
       "url": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/"
     },
     {
-      "name": "🐝快车资源",
+      "name": "快车资源",
       "url": "https://caiji.kczyapi.com/api.php/provide/vod/"
     },
     {
@@ -435,7 +435,7 @@
       "url": "https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/"
     },
     {
-      "name": "量子",
+      "name": "影视 | 量子[直连]",
       "url": "https://cj.lziapi.com/api.php/provide/vod/"
     },
     {
@@ -443,7 +443,7 @@
       "url": "https://cj.lziapi.com/api.php/provide/vod/?ac=list"
     },
     {
-      "name": "✅量子┃影视",
+      "name": "🦚量子┃采集",
       "url": "https://cj.lziapi.com/api.php/provide/vod/at/xml/"
     },
     {
@@ -459,15 +459,15 @@
       "url": "https://cj.rycjapi.com/api.php/provide/vod/at/xml/"
     },
     {
-      "name": "影图|点播",
+      "name": "🥪影图影视(聚)",
       "url": "https://cj.vodimg.top/api.php/provide/vod/"
     },
     {
-      "name": "丫丫|点播",
+      "name": "🐝鸭鸭资源",
       "url": "https://cj.yayazy.net/api.php/provide/vod/"
     },
     {
-      "name": "CK资源",
+      "name": "🐝CK 资源",
       "url": "https://ckzy.me/api.php/provide/vod/"
     },
     {
@@ -495,7 +495,7 @@
       "url": "https://ddmf.net/api.php/provide/vod"
     },
     {
-      "name": "海外看",
+      "name": "海外看(墙外)",
       "url": "https://haiwaikan.com/api.php/provide/vod"
     },
     {
@@ -503,7 +503,7 @@
       "url": "https://hhzyapi.com/api.php/provide/vod"
     },
     {
-      "name": "💥┃火狐2K┃有广",
+      "name": "火狐|点播",
       "url": "https://hhzyapi.com/api.php/provide/vod/"
     },
     {
@@ -515,7 +515,7 @@
       "url": "https://ikaola.tv/api.php/provide/vod/"
     },
     {
-      "name": "采集视频3",
+      "name": "iKun资源",
       "url": "https://ikunzyapi.com/api.php/provide/vod"
     },
     {
@@ -527,7 +527,7 @@
       "url": "https://ikunzyapi.com/api.php/provide/vod/?ac=list"
     },
     {
-      "name": "IK",
+      "name": "💥丨爱看2k丨微广",
       "url": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/"
     },
     {
@@ -555,7 +555,7 @@
       "url": "https://jszyapi.com/api.php/provide/vod/"
     },
     {
-      "name": "极速资源",
+      "name": "影视 | 极速[直连]",
       "url": "https://jszyapi.com/api.php/provide/vod/?ac=list"
     },
     {
@@ -707,7 +707,7 @@
       "url": "https://www.afasu.com/api/xml.php"
     },
     {
-      "name": "🐶多多影视(优)",
+      "name": "🍊多多资源(优)",
       "url": "https://www.ddzyz1.com/api.php/provide/vod/"
     },
     {
@@ -719,11 +719,11 @@
       "url": "https://www.feisuzyapi.com/api.php/provide/vod/"
     },
     {
-      "name": "香奶儿资源(已修复)",
+      "name": "香奶儿",
       "url": "https://www.gdlsp.com/api/xml.php"
     },
     {
-      "name": "🐝红牛资源",
+      "name": "红牛|点播",
       "url": "https://www.hongniuzy2.com/api.php/provide/vod/"
     },
     {
@@ -771,11 +771,11 @@
       "url": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list"
     },
     {
-      "name": "美少女资源(已修复)",
+      "name": "美少女",
       "url": "https://www.msnii.com/api/xml.php"
     },
     {
-      "name": "黄AV资源(已修复)",
+      "name": "🔞PGX电影",
       "url": "https://www.pgxdy.com/api/xml.php"
     },
     {
@@ -795,7 +795,7 @@
       "url": "https://www.xiangjiaozyw.com/api.php/provide/vod/at/xml/"
     },
     {
-      "name": "成人05",
+      "name": "成人06",
       "url": "https://www.xrbsp.com/api/xml.php"
     },
     {
@@ -925,7 +925,7 @@
       "url": "http://47.120.41.246:8025/vip/jar/zb.php"
     },
     {
-      "name": "第三方源|不保存可用",
+      "name": "TXT",
       "url": "http://home.jundie.top:81/Cat/tv/live.txt"
     },
     {
@@ -969,7 +969,7 @@
       "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"
     },
     {
-      "name": "Live-🐮【王二小放牛娃】🐮",
+      "name": "Live-🐮【更新日期:20260705】🐮",
       "url": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
     },
     {
@@ -1185,7 +1185,7 @@
       "url": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--47a8ff0e68559a89a9a75b37d09a2b0854dc5a8a/bili001.txt"
     },
     {
-      "name": "Live-🅱‍哔哩┃影视🅱‍",
+      "name": "Live-🅱‍哔哩NEW歌曲🅱‍",
       "url": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt"
     },
     {

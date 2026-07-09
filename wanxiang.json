@@ -31,16 +31,6 @@
       "type": 10
     },
     {
-      "name": "📡猫影港台",
-      "url": "http://204.152.218.23:555/cctv.m3u",
-      "type": 10
-    },
-    {
-      "name": "📡国外直播",
-      "url": "http://204.152.218.23:555/iptv.m3u",
-      "type": 10
-    },
-    {
       "name": "live",
       "url": "http://23.224.143.163:2202/vip/ku9.txt",
       "type": 10
@@ -181,23 +171,8 @@
       "type": 10
     },
     {
-      "name": "📡小哥哥直播",
-      "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
-      "type": 10
-    },
-    {
-      "name": "📡大葱娱乐",
-      "url": "https://gitee.com/sd-live/zb/raw/master/myDS",
-      "type": 10
-    },
-    {
       "name": "Live-🫛┃蔬菜┃APP",
       "url": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt|88689667dce61725",
-      "type": 10
-    },
-    {
-      "name": "📡猫影直播",
-      "url": "https://iptv.catvod.com/tv.m3u",
       "type": 10
     },
     {
@@ -297,10 +272,6 @@
     {
       "name": "🌭MX 影院(聚)",
       "url": "http://49.235.107.145:81/api.php/provide/vod/"
-    },
-    {
-      "name": "天翼｜影视",
-      "url": "http://7.qqqtv.top/api.php/provide/vod/"
     },
     {
       "name": "🥤阿里影视(聚)",
@@ -441,10 +412,6 @@
     {
       "name": "🍨百淘影视(聚)",
       "url": "http://ys.58g8.com/api.php/provide/vod/"
-    },
-    {
-      "name": "金蝉｜聚合",
-      "url": "http://zy.jinchancaiji.com/api.php/provide/vod"
     },
     {
       "name": "✅360┃资源",

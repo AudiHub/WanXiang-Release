@@ -31,16 +31,6 @@
       "type": 10
     },
     {
-      "name": "📡猫影港台",
-      "url": "http://204.152.218.23:555/cctv.m3u",
-      "type": 10
-    },
-    {
-      "name": "📡国外直播",
-      "url": "http://204.152.218.23:555/iptv.m3u",
-      "type": 10
-    },
-    {
       "name": "live",
       "url": "http://23.224.143.163:2202/vip/ku9.txt",
       "type": 10
@@ -88,11 +78,6 @@
     {
       "name": "直播",
       "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
-      "type": 10
-    },
-    {
-      "name": "冰 茶",
-      "url": "https://bc.188766.xyz/?ip=&mishitong=true&mima=mianfeibuhuaqian&json=true",
       "type": 10
     },
     {
@@ -186,11 +171,6 @@
       "type": 10
     },
     {
-      "name": "develop202",
-      "url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-      "type": 10
-    },
-    {
       "name": "16万•MV",
       "url": "https://gh.tryxd.cn/raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
       "type": 10
@@ -221,16 +201,6 @@
       "type": 10
     },
     {
-      "name": "📡小哥哥直播",
-      "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
-      "type": 10
-    },
-    {
-      "name": "📡大葱娱乐",
-      "url": "https://gitee.com/sd-live/zb/raw/master/myDS",
-      "type": 10
-    },
-    {
       "name": "Live-🫛┃蔬菜┃APP",
       "url": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt|88689667dce61725",
       "type": 10
@@ -238,11 +208,6 @@
     {
       "name": "V4聚合（卡顿请按左┃右键换线）",
       "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
-      "type": 10
-    },
-    {
-      "name": "📡猫影直播",
-      "url": "https://iptv.catvod.com/tv.m3u",
       "type": 10
     },
     {
@@ -331,11 +296,6 @@
       "type": 10
     },
     {
-      "name": "范明明（需开启V6网络）",
-      "url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
-      "type": 10
-    },
-    {
       "name": "成人直播",
       "url": "https://raw.bgithub.xyz/wwb521/live/refs/heads/main/selive.txt",
       "type": 10
@@ -348,26 +308,6 @@
     {
       "name": "LIVE_home",
       "url": "https://raw.githubusercontent.com/joevess/IPTV/refs/heads/main/home.m3u8",
-      "type": 10
-    },
-    {
-      "name": "B站直播",
-      "url": "https://sub.ottiptv.cc/bililive.m3u",
-      "type": 10
-    },
-    {
-      "name": "斗鱼一起看",
-      "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
-      "type": 10
-    },
-    {
-      "name": "虎牙一起看",
-      "url": "https://sub.ottiptv.cc/huyayqk.m3u",
-      "type": 10
-    },
-    {
-      "name": "YY轮播",
-      "url": "https://sub.ottiptv.cc/yylunbo.m3u",
       "type": 10
     },
     {
@@ -447,10 +387,6 @@
     {
       "name": "🌭MX 影院(聚)",
       "url": "http://49.235.107.145:81/api.php/provide/vod/"
-    },
-    {
-      "name": "天翼｜影视",
-      "url": "http://7.qqqtv.top/api.php/provide/vod/"
     },
     {
       "name": "🥤阿里影视(聚)",
@@ -619,10 +555,6 @@
     {
       "name": "最大|点播",
       "url": "http://zuidazy.me/api.php/provide/vod/"
-    },
-    {
-      "name": "金蝉｜聚合",
-      "url": "http://zy.jinchancaiji.com/api.php/provide/vod"
     },
     {
       "name": "✅360┃资源",

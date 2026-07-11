@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-11 02:24:13",
+  "generated_at": "2026-07-11 07:51:02",
   "stats": {
-    "cms_total": 220,
-    "live_total": 75,
-    "grand_total": 295
+    "cms_total": 210,
+    "live_total": 81,
+    "grand_total": 291
   },
   "cms_sources": [
     {
@@ -51,7 +51,7 @@
       "url": "http://aliys.cn:90/api.php/provide/vod/"
     },
     {
-      "name": "🥕忆梦资源(官)",
+      "name": "忆梦资源",
       "url": "http://anltv.cn/api.php/provide/vod/"
     },
     {
@@ -79,7 +79,7 @@
       "url": "http://caiji.dyttzyapi.com/api.php/provide/vod"
     },
     {
-      "name": "电影天堂2",
+      "name": "电影天堂",
       "url": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list"
     },
     {
@@ -95,10 +95,6 @@
       "url": "http://cj.baozi66.top:66/api.php/provide/vod/"
     },
     {
-      "name": "✅非凡┃影视",
-      "url": "http://cj.ffzyapi.com//api.php/provide/vod"
-    },
-    {
       "name": "非凡|点播",
       "url": "http://cj.ffzyapi.com/api.php/provide/vod/"
     },
@@ -111,11 +107,11 @@
       "url": "http://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/"
     },
     {
-      "name": "🥑量子资源",
+      "name": "🐝量子资源",
       "url": "http://cj.lziapi.com/api.php/provide/vod/"
     },
     {
-      "name": "成人07",
+      "name": "成人01",
       "url": "http://dadiapi.com/api.php"
     },
     {
@@ -219,10 +215,6 @@
       "url": "http://zy.jinchancaiji.com/api.php/provide/vod"
     },
     {
-      "name": "✅360┃资源",
-      "url": "https://360zy.com/api.php/provide/vod"
-    },
-    {
       "name": "360资源",
       "url": "https://360zy.com/api.php/provide/vod/?ac=list"
     },
@@ -255,7 +247,7 @@
       "url": "https://api.1080zyku.com/inc/apijson.php"
     },
     {
-      "name": "百度云资源",
+      "name": "🐝百度资源",
       "url": "https://api.apibdzy.com/api.php/provide/vod/"
     },
     {
@@ -275,7 +267,7 @@
       "url": "https://api.apilyzy.com/api.php/provide/vod/at/xml/"
     },
     {
-      "name": "🐝光速资源",
+      "name": "光速资源",
       "url": "https://api.guangsuapi.com/api.php/provide/vod/"
     },
     {
@@ -291,7 +283,7 @@
       "url": "https://api.maoyanapi.top/api.php/provide/vod"
     },
     {
-      "name": "牛牛资源",
+      "name": "牛牛|点播",
       "url": "https://api.niuniuzy.me/api.php/provide/vod/"
     },
     {
@@ -315,11 +307,11 @@
       "url": "https://api.ukuapi.com/api.php/provide/vod/?ac=list"
     },
     {
-      "name": "U酷资源",
+      "name": "樱花资源",
       "url": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list"
     },
     {
-      "name": "无尽|点播",
+      "name": "🐝无尽资源",
       "url": "https://api.wujinapi.com/api.php/provide/vod/"
     },
     {
@@ -339,7 +331,7 @@
       "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod"
     },
     {
-      "name": "新浪资源",
+      "name": "新浪|点播",
       "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/"
     },
     {
@@ -359,14 +351,6 @@
       "url": "https://api.yparse.com/api/json"
     },
     {
-      "name": "柚子资源",
-      "url": "https://api.yzzy-api.com/inc/api.php"
-    },
-    {
-      "name": "优质资源",
-      "url": "https://api.yzzy-api.com/inc/apijson.php?ac=list"
-    },
-    {
       "name": "最大资源",
       "url": "https://api.zuidapi.com/api.php/provide/vod/"
     },
@@ -379,19 +363,19 @@
       "url": "https://apittzy.com/api.php/provide/vod/"
     },
     {
-      "name": "暴风影音",
+      "name": "🚄吾爱影音",
       "url": "https://app.bfzyapi.com/api.php/provide/vod/"
     },
     {
-      "name": "暴風",
+      "name": "暴风",
       "url": "https://bfzyapi.com/api.php/provide/vod"
     },
     {
-      "name": "暴风采集",
+      "name": "暴风|点播",
       "url": "https://bfzyapi.com/api.php/provide/vod/"
     },
     {
-      "name": "暴风资源",
+      "name": "影视 | 暴風[直连]",
       "url": "https://bfzyapi.com/api.php/provide/vod/?ac=list"
     },
     {
@@ -415,7 +399,7 @@
       "url": "https://caiji.maotaizy.cc/api.php/provide/vod/?ac=list"
     },
     {
-      "name": "茅台资源",
+      "name": "影剧资源",
       "url": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/"
     },
     {
@@ -435,7 +419,7 @@
       "url": "https://caiji.yueai55.cc:2277/yuelove.php/provide/vod/"
     },
     {
-      "name": "量子",
+      "name": "影视 | 量子[直连]",
       "url": "https://cj.lziapi.com/api.php/provide/vod/"
     },
     {
@@ -475,11 +459,7 @@
       "url": "https://collect.wolongzy.cc/api.php/provide/vod/"
     },
     {
-      "name": "卧龙资源",
-      "url": "https://collect.wolongzy.cc/api.php/provide/vod/?ac=list"
-    },
-    {
-      "name": "卧龙资源",
+      "name": "🐝卧龙资源",
       "url": "https://collect.wolongzyw.com/api.php/provide/vod/"
     },
     {
@@ -491,19 +471,15 @@
       "url": "https://dbzy.tv/api.php/provide/vod/?ac=list"
     },
     {
-      "name": "蛋蛋魔法",
-      "url": "https://ddmf.net/api.php/provide/vod"
-    },
-    {
       "name": "我的TV",
       "url": "https://dy.7772888.xyz/api.php/tvbox"
     },
     {
-      "name": "海外看",
+      "name": "海外看(墙外)",
       "url": "https://haiwaikan.com/api.php/provide/vod"
     },
     {
-      "name": "豪华|点播",
+      "name": "豪华资源",
       "url": "https://hhzyapi.com/api.php/provide/vod"
     },
     {
@@ -519,7 +495,7 @@
       "url": "https://ikaola.tv/api.php/provide/vod/"
     },
     {
-      "name": "iKun资源",
+      "name": "采集视频3",
       "url": "https://ikunzyapi.com/api.php/provide/vod"
     },
     {
@@ -531,7 +507,7 @@
       "url": "https://ikunzyapi.com/api.php/provide/vod/?ac=list"
     },
     {
-      "name": "💥丨爱看2k丨微广",
+      "name": "IK",
       "url": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/"
     },
     {
@@ -559,7 +535,7 @@
       "url": "https://jszyapi.com/api.php/provide/vod/"
     },
     {
-      "name": "极速资源",
+      "name": "影视 | 极速[直连]",
       "url": "https://jszyapi.com/api.php/provide/vod/?ac=list"
     },
     {
@@ -635,10 +611,6 @@
       "url": "https://p2100.net/api.php/provide/vod/"
     },
     {
-      "name": "四个圈",
-      "url": "https://pg.fenwe078.cf/api.php/provide/vod/"
-    },
-    {
       "name": "闪电资源",
       "url": "https://sdzyapi.com/api.php/provide/vod/"
     },
@@ -651,11 +623,11 @@
       "url": "https://subocaiji.com/api.php/provide/vod/"
     },
     {
-      "name": "🦜索尼┃采集",
+      "name": "索尼",
       "url": "https://suoniapi.com/api.php/provide/vod"
     },
     {
-      "name": "索尼",
+      "name": "索尼|点播",
       "url": "https://suoniapi.com/api.php/provide/vod/"
     },
     {
@@ -667,7 +639,7 @@
       "url": "https://suoniapi.com/api.php/provide/vod/at/xml/"
     },
     {
-      "name": "✅索尼┃影视",
+      "name": "索尼┃资源",
       "url": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/"
     },
     {
@@ -723,11 +695,11 @@
       "url": "https://www.feisuzyapi.com/api.php/provide/vod/"
     },
     {
-      "name": "成人03",
+      "name": "香奶儿资源(已修复)",
       "url": "https://www.gdlsp.com/api/xml.php"
     },
     {
-      "name": "红牛|点播",
+      "name": "红牛资源",
       "url": "https://www.hongniuzy2.com/api.php/provide/vod/"
     },
     {
@@ -751,11 +723,7 @@
       "url": "https://www.huyaapi.com/api.php/provide/vod/at/json"
     },
     {
-      "name": "映迷影视",
-      "url": "https://www.inmi.app/api.php/provide/vod/"
-    },
-    {
-      "name": "白嫖资源(已修复)",
+      "name": "白嫖",
       "url": "https://www.kxgav.com/api/xml.php"
     },
     {
@@ -775,20 +743,12 @@
       "url": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list"
     },
     {
-      "name": "美少女",
+      "name": "美少女资源(已修复)",
       "url": "https://www.msnii.com/api/xml.php"
     },
     {
       "name": "🔞PGX电影",
       "url": "https://www.pgxdy.com/api/xml.php"
-    },
-    {
-      "name": "花旗资源",
-      "url": "https://www.seacms.org/api.php/provide/vod/?ac=list"
-    },
-    {
-      "name": "淘片资源",
-      "url": "https://www.taopianzy.com/cjapi/mc/vod/json"
     },
     {
       "name": "无忧影视",
@@ -921,15 +881,11 @@
       "url": "http://204.152.218.23:555/iptv.m3u"
     },
     {
-      "name": "live",
-      "url": "http://23.224.143.163:2202/vip/ku9.txt"
-    },
-    {
       "name": "平台直播",
       "url": "http://47.120.41.246:8025/vip/jar/zb.php"
     },
     {
-      "name": "TXT",
+      "name": "第三方源|不保存可用",
       "url": "http://home.jundie.top:81/Cat/tv/live.txt"
     },
     {
@@ -961,6 +917,10 @@
       "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt"
     },
     {
+      "name": "冰 茶",
+      "url": "https://bc.188766.xyz/?ip=&mishitong=true&mima=mianfeibuhuaqian&json=true"
+    },
+    {
       "name": "Live-♾️┃永永┃APP",
       "url": "https://bind.315999.xyz/89.txt|#getapp@TMD@2025|120"
     },
@@ -969,7 +929,7 @@
       "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"
     },
     {
-      "name": "Live-🐮【王二小放牛娃】🐮",
+      "name": "Live-🐮【更新日期:20260705】🐮",
       "url": "https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"
     },
     {
@@ -985,7 +945,7 @@
       "url": "https://epg.pw/test_channels.m3u"
     },
     {
-      "name": "直播ipv6",
+      "name": "live.ipv6",
       "url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u"
     },
     {
@@ -1031,6 +991,10 @@
     {
       "name": "vbskycn(ipv6)",
       "url": "https://gh.cswklt.top/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt"
+    },
+    {
+      "name": "develop202",
+      "url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
     },
     {
       "name": "16万•MV",
@@ -1145,6 +1109,10 @@
       "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/dxawi/0/main/tvlive.txt"
     },
     {
+      "name": "范明明（需开启V6网络）",
+      "url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u"
+    },
+    {
       "name": "成人直播",
       "url": "https://raw.bgithub.xyz/wwb521/live/refs/heads/main/selive.txt"
     },
@@ -1157,15 +1125,31 @@
       "url": "https://raw.githubusercontent.com/joevess/IPTV/refs/heads/main/home.m3u8"
     },
     {
+      "name": "B站直播",
+      "url": "https://sub.ottiptv.cc/bililive.m3u"
+    },
+    {
+      "name": "斗鱼一起看",
+      "url": "https://sub.ottiptv.cc/douyuyqk.m3u"
+    },
+    {
+      "name": "虎牙一起看",
+      "url": "https://sub.ottiptv.cc/huyayqk.m3u"
+    },
+    {
+      "name": "YY轮播",
+      "url": "https://sub.ottiptv.cc/yylunbo.m3u"
+    },
+    {
       "name": "Live-🅱‍哔哩NEW合集🅱‍",
       "url": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--47a8ff0e68559a89a9a75b37d09a2b0854dc5a8a/bili001.txt"
     },
     {
-      "name": "Live-🅱‍哔哩NEW歌曲🅱‍",
+      "name": "Live-🅱‍哔哩┃影视🅱‍",
       "url": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt"
     },
     {
-      "name": "佛系收集(IJK)",
+      "name": "佛系收集(EXO)",
       "url": "https://tv.iill.top/m3u/Gather"
     },
     {

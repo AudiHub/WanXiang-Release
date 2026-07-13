@@ -1,4 +1,4 @@
-name: 同步上游订阅源
+﻿name: 鍚屾涓婃父璁㈤槄婧?
 
 on:
   schedule:
@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: 检查上游是否有更新
+      - name: 妫€鏌ヤ笂娓告槸鍚︽湁鏇存柊
         id: check
         run: |
           UPSTREAM=
@@ -33,7 +33,7 @@ jobs:
             echo "first sync: "
           fi
 
-      - name: 下载源文件
+      - name: 涓嬭浇婧愭枃浠?
         if: steps.check.outputs.changed == 'true'
         run: |
           UPSTREAM_URL="https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg"
@@ -43,14 +43,14 @@ jobs:
           curl -sL "/Jsnzkpg5"    -o /tmp/raw_EchoTV
           echo "done"
 
-      - name: 去广告处理
+      - name: 鍘诲箍鍛婂鐞?
         if: steps.check.outputs.changed == 'true'
         run: |
           python3 -c "
           import json, shutil
           with open('/tmp/raw_Live', 'r') as f:
               c = f.read()
-          idx = c.find('🔥')
+          idx = c.find('馃敟')
           if idx != -1:
               c = c[idx + 1:]
           with open('Live', 'w') as f:
@@ -61,7 +61,7 @@ jobs:
           for i, line in enumerate(lines):
               if skip:
                   skip = False; continue
-              if '✈️TG频道' in line:
+              if '鉁堬笍TG棰戦亾' in line:
                   if i + 1 < len(lines): skip = True
                   continue
               kept.append(line)
@@ -73,35 +73,35 @@ jobs:
               if sec in data:
                   for item in data[sec]:
                       item.pop('remark', None)
-                  data[sec] = [item for item in data[sec] if '频道' not in item.get('name', '')]
+                  data[sec] = [item for item in data[sec] if '棰戦亾' not in item.get('name', '')]
           with open('UZ', 'w') as f:
               json.dump(data, f, indent=2, ensure_ascii=False)
           with open('/tmp/raw_EchoTV', 'r') as f:
               data = json.load(f)
-          keys = [k for k, v in data.get('api_site', {}).items() if '频道' in v.get('name', '')]
+          keys = [k for k, v in data.get('api_site', {}).items() if '棰戦亾' in v.get('name', '')]
           for k in keys:
               del data['api_site'][k]
           with open('EchoTV', 'w') as f:
               json.dump(data, f, indent=2, ensure_ascii=False)
           print('done')
           "
-      - name: 更新 README
+      - name: 鏇存柊 README
         run: |
           python3 -c "
           line = []
           line.append('<!-- SUB_SECTION_START -->')
           line.append('')
-          line.append('## 📡 订阅源（自动同步）')
+          line.append('## 馃摗 璁㈤槄婧愶紙鑷姩鍚屾锛?)
           line.append('')
-          line.append('> 上游：[Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg) | [咪咕源](https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u)')
+          line.append('> 涓婃父锛歔Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg) | [鍜挄婧怾(https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u)')
           line.append('')
-          line.append('| 名称 | 直链（已加 gh-proxy 加速） |')
+          line.append('| 鍚嶇О | 鐩撮摼锛堝凡鍔?gh-proxy 鍔犻€燂級 |')
           line.append('|:---|:---|')
-          line.append('| 📺 IPTV订阅 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/IPTV.m3u |')
-          line.append('| 🎞️ UZ影视订阅 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/UZ |')
-          line.append('| 📹 EchoTV订阅 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/EchoTV |')
-          line.append('| 🎬 咪咕源 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u |')
-          line.append('| 🎬 万象订阅 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/subscribe/wanxiang.json |')
+          line.append('| 馃摵 IPTV璁㈤槄 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/IPTV.m3u |')
+          line.append('| 馃帪锔?UZ褰辫璁㈤槄 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/UZ |')
+          line.append('| 馃摴 EchoTV璁㈤槄 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/EchoTV |')
+          line.append('| 馃幀 鍜挄婧?| https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u |')
+          line.append('| 馃幀 涓囪薄璁㈤槄 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/subscribe/wanxiang.json |')
           line.append('')
           line.append('<!-- SUB_SECTION_END -->')
           sub = chr(10).join(line)
@@ -120,18 +120,18 @@ jobs:
           print('done')
           "
 
-      - name: 万象影视订阅源抓取
+      - name: 涓囪薄褰辫璁㈤槄婧愭姄鍙?
         run: |
           python3 scripts/scrape_and_build.py
 
-      - name: 复制订阅文件到 subscribe 目录
+      - name: 澶嶅埗璁㈤槄鏂囦欢鍒?subscribe 鐩綍
         run: |
           mkdir -p subscribe
           cp release/wanxiang.json subscribe/ 2>/dev/null || true
-          cp release/可用影视源列表.txt subscribe/ 2>/dev/null || true
-          cp release/IPTV直播源列表.txt subscribe/ 2>/dev/null || true
+          cp release/鍙敤褰辫婧愬垪琛?txt subscribe/ 2>/dev/null || true
+          cp release/IPTV鐩存挱婧愬垪琛?txt subscribe/ 2>/dev/null || true
           cp subscribe/wanxiang.json wanxiang.json 2>/dev/null || true
-      - name: 提交并推送
+      - name: 鎻愪氦骞舵帹閫?
         run: |
           git config user.name "sync-bot"
           git config user.email "bot@users.noreply.github.com"
@@ -142,3 +142,8 @@ jobs:
             git commit -m "sync "
             git push
           fi
+      - name: 同步到 Gitee（国内加速）
+        run: |
+          git remote add gitee https://AudiHub:${{ secrets.GITEE_TOKEN }}@gitee.com/AudiHub/WanXiang-Release.git
+          git push -f gitee main
+          echo "synced to gitee"

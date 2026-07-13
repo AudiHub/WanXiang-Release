@@ -4,20 +4,19 @@
 
 ---
 
+> **🚀 国内用户推荐从 Gitee 下载（速度快）：**
+> https://gitee.com/AudiHub/WanXiang-Release/releases
+
+---
+
 ## 📦 下载
 
-### Windows
+| 平台 | 包名 | 说明 | 下载 |
+|------|------|------|------|
+| Windows | 安装器 | 一键安装（推荐） | [GitHub](https://github.com/AudiHub/WanXiang-Release/releases/latest) · [Gitee](https://gitee.com/AudiHub/WanXiang-Release/releases/latest) |
+| Android | APK | 含 Android TV 支持 | [GitHub](https://github.com/AudiHub/WanXiang-Release/releases/latest) · [Gitee](https://gitee.com/AudiHub/WanXiang-Release/releases/latest) |
 
-| 包名 | 说明 |
-|------|------|
-| `WanXiangInstaller-x64.exe` | 一键安装器（推荐，自动关联） |
-| `WanXiangPortable-v1.1.0-x64.7z` | 免安装便携版（解压即用，不写注册表） |
-
-### Android
-
-| 包名 | 说明 |
-|------|------|
-| `WanXiang-v1.1.0.apk` | 含 Android TV 支持 |
+> 💡 **Gitee 镜像**自动同步，下载更快；GitHub 同步发布，两者内容一致。
 
 ---
 

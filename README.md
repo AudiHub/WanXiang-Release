@@ -1,63 +1,64 @@
-# 万象影视 — 发布产物下载
+﻿# 涓囪薄褰辫 鈥?鍙戝竷浜х墿涓嬭浇
 
-**全平台 · 轻量 · 高性能影视·电视·音乐播放器**
+**鍏ㄥ钩鍙?路 杞婚噺 路 楂樻€ц兘褰辫路鐢佃路闊充箰鎾斁鍣?*
 
 ---
 
-> **🚀 国内用户推荐从 Gitee 下载（速度快）：**
+> **馃殌 鍥藉唴鐢ㄦ埛鎺ㄨ崘浠?Gitee 涓嬭浇锛堥€熷害蹇級锛?*
 > https://gitee.com/AudiHub/WanXiang-Release/releases
 
 ---
 
-## 📦 下载
+## 馃摝 涓嬭浇
 
-| 平台 | 包名 | 说明 | 下载 |
+| 骞冲彴 | 鍖呭悕 | 璇存槑 | 涓嬭浇 |
 |------|------|------|------|
-| Windows | 安装器 | 一键安装（推荐） | [GitHub](https://github.com/AudiHub/WanXiang-Release/releases/latest) · [Gitee](https://gitee.com/AudiHub/WanXiang-Release/releases/latest) |
-| Android | APK | 含 Android TV 支持 | [GitHub](https://github.com/AudiHub/WanXiang-Release/releases/latest) · [Gitee](https://gitee.com/AudiHub/WanXiang-Release/releases/latest) |
+| Windows | 瀹夎鍣?| 涓€閿畨瑁咃紙鎺ㄨ崘锛?| [GitHub](https://github.com/AudiHub/WanXiang-Release/releases/latest) 路 [Gitee](https://gitee.com/AudiHub/WanXiang-Release/releases/latest) |
+| Android | APK | 鍚?Android TV 鏀寔 | [GitHub](https://github.com/AudiHub/WanXiang-Release/releases/latest) 路 [Gitee](https://gitee.com/AudiHub/WanXiang-Release/releases/latest) |
 
-> 💡 **Gitee 镜像**自动同步，下载更快；GitHub 同步发布，两者内容一致。
+> 馃挕 **Gitee 闀滃儚**鑷姩鍚屾锛屼笅杞芥洿蹇紱GitHub 鍚屾鍙戝竷锛屼袱鑰呭唴瀹逛竴鑷淬€?
 
 ---
 
-## 🛠 技术栈
+## 馃洜 鎶€鏈爤
 
-| 类别 | 技术 |
+| 绫诲埆 | 鎶€鏈?|
 |------|------|
-| 框架 | Flutter 3.x (Dart) |
-| 视频内核 | media_kit + libmpv (硬件解码) |
-| 音频 |多音源插件 |
-| 数据存储 | sqflite (SQLite) + SharedPreferences |
+| 妗嗘灦 | Flutter 3.x (Dart) |
+| 瑙嗛鍐呮牳 | media_kit + libmpv (纭欢瑙ｇ爜) |
+| 闊抽 |澶氶煶婧愭彃浠?|
+| 鏁版嵁瀛樺偍 | sqflite (SQLite) + SharedPreferences |
 
 ---
 
-## 📋 功能
+## 馃搵 鍔熻兘
 
-- **影视** — 多源聚合，拼音搜索，分类浏览
-- **电视** — M3U/TXT 直播源，频道分组，EPG 节目指南
-- **音乐** — 在线播放，歌单/排行榜/专辑/歌手/MV，歌词滚动，均衡器，定时关闭，播放速度调节
-- **资源库** — 影视源/电视源/音源管理，TVBOX 订阅
-- **系统** — 明暗主题，语言切换，缓存清理，更新检测
+- **褰辫** 鈥?澶氭簮鑱氬悎锛屾嫾闊虫悳绱紝鍒嗙被娴忚
+- **鐢佃** 鈥?M3U/TXT 鐩存挱婧愶紝棰戦亾鍒嗙粍锛孍PG 鑺傜洰鎸囧崡
+- **闊充箰** 鈥?鍦ㄧ嚎鎾斁锛屾瓕鍗?鎺掕姒?涓撹緫/姝屾墜/MV锛屾瓕璇嶆粴鍔紝鍧囪　鍣紝瀹氭椂鍏抽棴锛屾挱鏀鹃€熷害璋冭妭
+- **璧勬簮搴?* 鈥?褰辫婧?鐢佃婧?闊虫簮绠＄悊锛孴VBOX 璁㈤槄
+- **绯荤粺** 鈥?鏄庢殫涓婚锛岃瑷€鍒囨崲锛岀紦瀛樻竻鐞嗭紝鏇存柊妫€娴?
 
 ---
-WebView央视：https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/lives/live-tv.json
+WebView澶锛歨ttps://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/lives/live-tv.json
 <!-- SUB_SECTION_START -->
 
-## 📡 订阅源（自动同步）
+## 馃摗 璁㈤槄婧愶紙鑷姩鍚屾锛?
 
-> 上游：[Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg) | [咪咕源](https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u)
+> 涓婃父锛歔Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg) | [鍜挄婧怾(https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u)
 
-| 名称 | 直链（已加 gh-proxy 加速） |
+| 鍚嶇О | 鐩撮摼锛堝凡鍔?gh-proxy 鍔犻€燂級 |
 |:---|:---|
-| 📺 IPTV订阅 | `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/IPTV.m3u` |
-| 🎥 TVbox订阅 | `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/TVbox` |
-| 🎞️ UZ影视订阅 | `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/UZ` |
-| 📹 EchoTV订阅 | `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/EchoTV` |
-| 🎬 咪咕源 | `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u` |
-| 🎬 万象订阅 | `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/subscribe/wanxiang.json` |
+| 馃摵 IPTV璁㈤槄 | `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/IPTV.m3u` |
+| 馃帴 TVbox璁㈤槄 | `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/TVbox` |
+| 馃帪锔?UZ褰辫璁㈤槄 | `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/UZ` |
+| 馃摴 EchoTV璁㈤槄 | `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/EchoTV` |
+| 馃幀 鍜挄婧?| `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u` |
+| 馃幀 涓囪薄璁㈤槄 | `https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/subscribe/wanxiang.json` |
 
 <!-- SUB_SECTION_END -->
 
 ## License
 
-© 2024-2025 万象影视
+漏 2024-2025 涓囪薄褰辫
+

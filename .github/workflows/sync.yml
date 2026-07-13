@@ -2,7 +2,7 @@
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 0 1 1 *'
   workflow_dispatch:
 
 jobs:
@@ -142,8 +142,4 @@ jobs:
             git commit -m "sync "
             git push
           fi
-      - name: 同步到 Gitee（国内加速）
-        run: |
-          git remote add gitee https://AudiHub:${{ secrets.GITEE_TOKEN }}@gitee.com/AudiHub/WanXiang-Release.git
-          git push -f gitee main
-          echo "synced to gitee"
+

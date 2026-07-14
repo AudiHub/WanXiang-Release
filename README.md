@@ -19,7 +19,7 @@
 ---
 
 **WebView央视：**
-https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/lives/live-tv.json
+https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/lives/live-tv.json
 
 ## 📡 订阅源（自动同步）
 

@@ -40,7 +40,7 @@
 ---
 
 **WebView央视：**
-https://gitee.com/AudiHub/WanXiang-Release/raw/main/lives/live-tv.json
+https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/lives/live-tv.json
 
 <!-- SUB_SECTION_START -->
 

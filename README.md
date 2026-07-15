@@ -4,12 +4,8 @@
 
 ---
 
-> 📥 **下载地址：**
-> [GitHub Release](https://github.com/AudiHub/WanXiang-Release/releases/latest) 
----
-
 ## 📦 下载
-
+---
 | 平台 | 包名 | 说明 | 下载 |
 |------|------|------|------|
 | Windows | 安装器 | 一键安装（推荐） | [GitHub](https://github.com/AudiHub/WanXiang-Release/releases/latest) 
@@ -18,6 +14,7 @@
 ---
 
 | 名称 | 直链（已加 gh-proxy 加速） |
+---
 | 🎬WebView |https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/lives/live-tv.json
 | 🎬 咪咕源 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u |
 | 📺 IPTV订阅 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/IPTV.m3u |

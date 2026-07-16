@@ -14,7 +14,7 @@
 
 ---
 
-| 名称 | 直链（已加 gh-proxy 加速） |
+| 电视源（已加 gh-proxy 加速） |
 ---
 | 🎬WebView |   https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/lives/live-tv.json  |
 

@@ -22,7 +22,7 @@
 
 | 🎬 咪咕源 |     https://cdn.jsdmirror.cn/gh/jia070310/lemonTV@main/iptv-fe.m3u      |
 
-| 📺 IPTV订阅 |     https://cdn.jsdmirror.com/gh/AudiHub/WanXiang-Release@main/IPTV.m3u      |
+| 📺万象直播 |    https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/IPTV.m3u    |
 
 | 订阅导入（已加 gh-proxy 加速） |
 ---

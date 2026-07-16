@@ -15,15 +15,17 @@
 
 | 名称 | 直链（已加 gh-proxy 加速） |
 ---
-| 🎬WebView |https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/lives/live-tv.json|
+| 🎬WebView |   https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/lives/live-tv.json  |
 
-| 🎬 咪咕源 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u |
+| 🎬综合直播 |     https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt     |
 
-| 📺 IPTV订阅 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/IPTV.m3u |
+| 🎬 咪咕源 |     https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u       |
 
-| 🎞️ UZ影视订阅 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/UZ |
+| 📺 IPTV订阅 |     https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/IPTV.m3u      |
 
-| 📹 EchoTV订阅 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/EchoTV |
+| 🎞️ UZ影视订阅 |     https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/UZ      |
 
-| 🎬 万象订阅 | https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/subscribe/wanxiang.json |
+| 📹 EchoTV订阅 |     https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/EchoTV     |
+
+| 🎬 万象订阅 |     https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/subscribe/wanxiang.json      |
 

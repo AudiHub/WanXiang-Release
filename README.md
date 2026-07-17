@@ -18,9 +18,9 @@
 ---
 | 🎬WebView |   https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/lives/live-tv.json  |
 
-| 🎬综合直播 |     https://cdn.jsdmirror.com/gh/develop202/migu_video@main/interface.txt    |
+| 🎬综合直播 |     https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt     |
 
-| 🎬 咪咕源 |     https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt      |
+| 🎬 咪咕源 |     https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u      |
 
 | 📺万象直播 |    https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/IPTV.m3u    |
 

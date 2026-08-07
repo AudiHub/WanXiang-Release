@@ -23,6 +23,9 @@
 | 🎬 咪咕源 |     https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/iptv/main/m3u/migu.m3u      |
 
 | 📺万象直播 |    https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/IPTV.m3u    |
+|一万部电影  |      https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/1万部电影.txt      |
+
+|电影工厂  |    https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/电影工厂.txt |
 
 | 订阅导入（已加 gh-proxy 加速） |
 ---

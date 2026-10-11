@@ -1,22 +1,3 @@
-⚙️GitHub镜像加速站
----
-|  https://gh-proxy.com/  |
-
-|  https://github.catvod.com/      |
-
-|  https://gh.xxooo.cf/      |
-
-|  https://gh.llkk.cc/      |
-
-|  https://github.ednovas.xyz/      |
-
-|  https://ghproxy.net/      |
-
-|  https://gh.aptv.app/      |
-
-|  https://gitpr.xmcom.us.kg/      |
-
-|  https://ghproxy.cn/      |
 
 ---
 
@@ -41,6 +22,7 @@
 | 📹 EchoTV订阅 |     https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/EchoTV     |
 
 | 🎬 万象订阅 |     https://gh-proxy.org/https://raw.githubusercontent.com/AudiHub/WanXiang-Release/main/subscribe/wanxiang.json      |
+
 
 
 TVBox配置文件，资源均来自于各路大神无私分享，如有侵权，请联系删除。🏅
@@ -95,6 +77,26 @@ TVBox配置文件，资源均来自于各路大神无私分享，如有侵权，
 |  TVBOX订阅：https://9877.kstore.space/one.json      |
 
 |  TVBOX订阅：https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/XC.json      |
+
+⚙️GitHub镜像加速站
+---
+|  https://gh-proxy.com/  |
+
+|  https://github.catvod.com/      |
+
+|  https://gh.xxooo.cf/      |
+
+|  https://gh.llkk.cc/      |
+
+|  https://github.ednovas.xyz/      |
+
+|  https://ghproxy.net/      |
+
+|  https://gh.aptv.app/      |
+
+|  https://gitpr.xmcom.us.kg/      |
+
+|  https://ghproxy.cn/      |
 
 🫶使用说明
 所有资源均收集于互联网，仅供测试研究使用，切勿商用；

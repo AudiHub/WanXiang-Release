@@ -110,7 +110,7 @@ http://113.195.172.192:1808/hls/207/index.m3u8
 #EXTINF:-1 group-title="🔥[三网1]央卫视直播" tvg-name="兵团卫视" tvg-logo="https://epg.112114.xyz/logo/兵团卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",兵团卫视
 http://113.195.172.192:1808/hls/211/index.m3u8
 #EXTINF:-1 group-title="🔥[三网1]央卫视直播" tvg-name="西藏卫视" tvg-logo="https://epg.112114.xyz/logo/西藏卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",西藏卫视
-,http://113.195.172.192:1808/hls/210/index.m3u8
+http://113.195.172.192:1808/hls/210/index.m3u8
 #EXTINF:-1 group-title="🔥[三网1]央卫视直播" tvg-name="新疆卫视" tvg-logo="https://epg.112114.xyz/logo/新疆卫视.png" epg-url="https://gitee.com/gsls200808/xmltvepg/raw/master/e9.xml.gz",新疆卫视
 http://113.195.172.192:1808/hls/206/index.m3u8
 
